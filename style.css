@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190830/pngtree-background-of-a-landscape-of-dusk-in-the-mountains-image_309828.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* .ImgB{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/660/724/non_2x/sunset-flat-mountains-background-free-vector.jpg");
+    background-repeat: repeat-y;
+
+} */
+
+.contenido{
+    position: relative;
+    top: 200px;
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+.login{
+    font-size: 20px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background: rgb(131 120 152 / 40%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgb(169 0 255 / 28%);
+
+}
+
+.login .textos{
+    font-family: 'Pinyon Script', cursive;
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 35px;
+
+}
+
+.btn .btnst input{
+    margin-top: 8px;
+}
+
+.btn .btnst{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input{
+    justify-content: center;
+    text-align: center;
+    height: 29px;
+    width: 250px;
+    border: 1px solid #100F0F;
+    border-radius: 15px;
+    
+}
+
+input:hover {
+    border: 2px solid #dd86f3;
+    color: #cc00ff;
+}
+
+#password{
+    position: relative;
+    left: 16px;
+}
+
+form .iPass {
+    position: relative;
+    cursor: pointer;
+    display: inline;
+    right: 25px;
+    top: 3px;
+}
+
+
+/* .watch{
+    position: relative;
+    right: 10%;
+} */
+
+.btnsunmit{
+    color: #100F0F;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btnsunmit:hover{
+    background-color: #eaaff9;
+    color: #000000;
+}
+
+.confirmacionFalse{
+    margin-top: 25px;
+    border-top: 3px solid #0d0d0d;
+    border-bottom: 3px solid #0d0d0d;
+    background: #ff0023;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.confirmacionTrue{
+    margin-top: 25px;
+    border-top: 3px solid #0d0d0d;
+    border-bottom: 3px solid #0d0d0d;
+    background: #dd86f3;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo{
+    text-align: center;
+    
+}
+
+.it{
+    position: relative;
+    bottom: 4px;
+}
+
+
+.infoRedes{
+    margin-top: 20px;
+    display: inline-grid;
+}
+
+.links{
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.links:hover{
+    color: #ffffff;
+    font-size: 23px;
+}
+
+
+/*
+Adaptacion de movil o tablet
+*/
+
+@media (max-width: 600px) {
+    .login{
+        width: 300px;
+    height: 500px ;
+    }
+  }
