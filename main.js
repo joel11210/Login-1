@@ -35,7 +35,7 @@ function confirmacionSi() {
 
 
 function enviado() {
-  if (email.value === "Admin" && password.value === "1") {
+  if (email.value === "Admin" && password.value === "123456") {
     
     confirmacionSi();
     
