@@ -61,11 +61,12 @@ body{
 }
 
 input{
+    border: 2px solid  #cc00ff;
     justify-content: center;
     text-align: center;
     height: 29px;
     width: 250px;
-    border: 1px solid #100F0F;
+    color: #cc00ff;
     border-radius: 15px;
     
 }
@@ -95,15 +96,19 @@ form .iPass {
 } */
 
 .btnsunmit{
-    color: #100F0F;
+    width: 25%;
+    color: #000000;
+    background-color: #db77ff;
+    border-radius: 2px solid #eaaff9;
     font-family: sans-serif;
     font-size: 15px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 .btnsunmit:hover{
     background-color: #eaaff9;
-    color: #000000;
+    color: #ffffff;
 }
 
 .confirmacionFalse{
